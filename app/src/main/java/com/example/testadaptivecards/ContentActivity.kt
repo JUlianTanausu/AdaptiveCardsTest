@@ -70,28 +70,28 @@ class ContentActivity : AppCompatActivity() {
         }
 
         cards.EXAMPLE_JSON = (pairList.toList())
-        val mycards = cards.getCards()
+        val myCards = cards.getCards()
 
-        if (mycards.size >1) {
+        if (myCards.size >1) {
             changeImageByDataDefaultCard()
-            for (num in 0 until mycards.size) {
-                setupOnClick(num, mycards)
-                adaptative_cards.addView(mycards[num])
+            for (num in 0 until myCards.size) {
+                setupOnClick(num, myCards)
+                adaptative_cards.addView(myCards[num])
             }
         } else {
-            mycards.forEach {
+            myCards.forEach {
                 adaptative_cards.addView(it)
             }
         }
     }
 
-    private fun setupOnClick(num : Int, mycards: List<View>){
-        mycards[num].setOnFocusChangeListener { _, hasFocus ->
+    private fun setupOnClick(num : Int, myCards: List<View>){
+        myCards[num].setOnFocusChangeListener { _, hasFocus ->
             run {
                 if (hasFocus) selectCard(num)
             }
         }
-        mycards[num].setOnClickListener {}
+        myCards[num].setOnClickListener {}
     }
 
     private fun changeImageByDataDefaultCard(){
