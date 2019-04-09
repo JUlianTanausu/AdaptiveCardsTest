@@ -42,7 +42,6 @@ class ReadJson internal constructor(private val context: Context, private val na
         configureLayout.cards = cardList
     }
 
-
     @Throws(JSONException::class)
     private fun readSuggestions(jObj: JSONObject){
         if (jObj.has("suggestions")){
@@ -58,7 +57,6 @@ class ReadJson internal constructor(private val context: Context, private val na
         }
     }
 
-
     @Throws(JSONException::class)
     private fun readDataCards(jObj: JSONObject){
         if (jObj.has("dataCards")){
@@ -73,7 +71,6 @@ class ReadJson internal constructor(private val context: Context, private val na
             configureLayout.dataExtraCardsList = data
         }
     }
-
 
     @Throws(JSONException::class)
     fun readFileFromAssets() {

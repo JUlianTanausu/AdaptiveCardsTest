@@ -61,8 +61,4 @@ class CardsProcessor(private val context: Context) {
         }
 
     }
-
-
-
-
 }
