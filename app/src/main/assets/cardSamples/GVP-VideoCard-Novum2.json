@@ -1,0 +1,56 @@
+{
+    "type": "AdaptiveCard" ,
+    "version": "1.0" ,
+    /* Este header sería la imagen, pero lo pintan fuera de la estructura de Adaptive cards*/
+    "headerImage": "imageUrl" ,
+    "body": [
+        {
+            "type": "Image",
+            "horizontalAlignment": "Center",
+            "url": "http://www.conlosojosabiertos.com/wp-content/uploads/et_temp/12-years-a-slave-trailer-133258_666x.jpg",
+            "size": "Stretch"
+        },
+        {
+            "type": "ColumnSet" ,
+            "columns": [
+                {
+                    "type": "Column" ,
+                    "width": "auto" ,
+                    "items": [
+                        {
+                            "type": "Image" ,
+                            "url":/* Sustituir por el icono correspondiente en Novum este enlace muestra el icono de device recommender*/
+                                "img-url"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column" ,
+                    "items": [/* Comprobar con Novum que esto no se rompe, nos dieron estas indicaciones para Multisuscriber para que las cabeceras pudieran tener doble línea pero nunca lo hemos visto*/
+                        {
+                            "type": "TextBlock" ,
+                            "size": "medium" ,
+                            "weight": "bolder" ,
+                            "text": "12 años de exclavitud"
+                        },
+                        {
+                            "type": "TextBlock" ,
+                            "size": "small" ,
+                            "isSubtle": true ,
+                            "text": "Cine Drama 2013" ,
+                            "spacing": "none"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+    {
+    "type": "Action.OpenUrl" ,
+    /* Poner aquí el deeplink*/
+    "url": "deeplink-abrir en Movistar Play" ,
+    "title": "More details"
+    }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "layout": {
+      "number": "5",
+      "urlImage": "https://illustoon.com/photo/64.png"
+  },
+  "cards": [
+      {
+        "file": "consumo_wifi",
+        "style": "geneyc_style"
+      }
+  ],
+  "suggestions": [
+    {
+      "file": "sg_how_tickets",
+      "style": "suggestion_style"
+    },
+    {
+      "file": "sg_select_date",
+      "style": "suggestion_style"
+    },
+    {
+      "file": "sg_what_time",
+      "style": "suggestion_style"
+    },
+    {
+      "file": "sg_holidays",
+      "style": "suggestion_style"
+    },
+    {
+      "file": "sg_workdays",
+      "style": "suggestion_style"
+    }
+  ]
+}

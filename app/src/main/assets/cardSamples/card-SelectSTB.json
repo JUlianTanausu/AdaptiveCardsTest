@@ -1,0 +1,108 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "selectAction": {
+                        "type": "Action.Submit"
+                    },
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "id": "imgcanal",
+                                    "url": "http://www.movistarplus.es/recorte/m-DP/samepg/TNT",
+                                    "additionalProperties": [
+                                        { "name": "-border-channel", "value": "true" }
+                                    ]
+                                }
+                            ],
+                            "width": "120px"
+                        },
+                        {
+                            "type": "Column",
+                            "verticalContentAlignment": "Center",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "size": "Large",
+                                    "weight": "Lighter",
+                                    "text": "STB Name",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "None",
+                                    "size": "Small",
+                                    "color": "Light",
+                                    "text": "Reproduciendo:",
+                                    "isSubtle": true,
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Channel Name"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "separator": true,
+            "height": "stretch",
+            "selectAction": {
+                "type": "Action.Submit"
+            },
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "http://www.movistarplus.es/recorte/n/corte575_425/F1921997"
+                        }
+                    ],
+                    "width": "120px"
+                },
+                {
+                    "type": "Column",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                                                        {
+                                    "type": "TextBlock",
+                                    "size": "Large",
+                                    "weight": "Lighter",
+                                    "text": "STB Name",
+                                    "wrap": true
+                                },
+                        {
+                            "type": "TextBlock",
+                            "size": "Small",
+                            "color": "Light",
+                            "text": "Reproduciendo:",
+                            "isSubtle": true,
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "VOD Title"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "fallbackText": "No se puede cargar la lista de descodificadores"
+}

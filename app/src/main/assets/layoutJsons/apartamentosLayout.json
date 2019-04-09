@@ -1,0 +1,50 @@
+{
+  "layout": {
+      "number": "3",
+      "urlImage": "https://pulserasbasha.com/wp-content/uploads/2018/06/googlemaps-torrecolon.jpg"
+},
+"cards": [
+    {
+      "file": "apartamento1",
+      "style": "apartamentos_style_selected"
+    },
+    {
+      "file": "apartamento2",
+      "style": "apartamentos_style"
+    },
+    {
+      "file": "apartamento3",
+      "style": "apartamentos_style"
+    },
+    {
+      "file": "apartamento4",
+      "style": "apartamentos_style"
+    },
+    {
+      "file": "apartamento5",
+      "style": "apartamentos_style"
+    }
+],
+"dataCards": [
+    {
+      "id": "apartamento1",
+      "urlImage" : "https://pulserasbasha.com/wp-content/uploads/2018/06/googlemaps-torrecolon.jpg"
+    },
+    {
+      "id": "apartamento2",
+      "urlImage" : "http://www.cameleonphotography.be/wp-content/uploads/2014/06/Carte-Google-maps-Namur1.jpg"
+    },
+    {
+      "id": "apartamento3",
+      "urlImage" : "https://webinsider.pl/wp-content/uploads/2018/08/www_google-maps_iframe.png"
+    },
+    {
+      "id": "apartamento4",
+      "urlImage" : "https://mcnaughtons.com/wp-content/themes/mcnaughtons/img/footer-map.jpg"
+    },
+    {
+      "id": "apartamento5",
+      "urlImage" : "https://www.friweb.ch/sites/support/files/styles/header/public/2017-09/capture_decran_2017-09-25_a_15.57.03.png"
+    }
+]
+}

@@ -1,0 +1,83 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "selectAction": {
+                        "type": "Action.Submit"
+                    },
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "id": "imgcanal",
+                                    "url": "http://www.movistarplus.es/recorte/n/dispmosaico/F3596546"
+                                }
+                            ],
+                            "width": "120px"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "url": "https://www.digitalmantenimientos.com/wp-content/uploads/2017/06/tv_antenas_icono_digital_expres.png",
+                                                    "width": "50px"
+                                                }
+                                            ],
+                                            "width": "stretch"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "horizontalAlignment": "Right",
+                                            "verticalContentAlignment": "Center",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "horizontalAlignment": "Right",
+                                                    "text": "Desco Name",
+                                                    "wrap": true
+                                                }
+                                            ],
+                                            "width": "stretch"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "Large",
+                                    "color": "Light",
+                                    "text": "VIENDO",
+                                    "isSubtle": true
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "size": "Large",
+                                    "weight":"Lighter",
+                                    "text": "Título Motiv - Ep.156 La niña de Shrek",
+                                    "wrap": true,
+                                    "maxLines": 3
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "fallbackText": "No se puede cargar la lista de descodificadores"
+}

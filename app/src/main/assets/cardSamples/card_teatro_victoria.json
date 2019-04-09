@@ -1,0 +1,27 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "http://www.teatrovictoria.net/Galeria/Teatro_Victoria_Zarzuela.jpg"
+        },
+        {
+          "type": "TextBlock",
+          "size": "Large",
+          "color": "Light",
+          "text": "Agua, azucarillos y aguardiente - Zarzuela"
+        },
+        {
+          "type": "TextBlock",
+          "color": "Light",
+          "text": "Teatro Victoria"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

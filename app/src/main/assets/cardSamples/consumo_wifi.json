@@ -1,0 +1,58 @@
+{
+    "type": "AdaptiveCard",
+    "backgroundImage": "https://botinvokatorae46.blob.core.windows.net/images/transparent.png",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "Center",
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "text": "CONSUMO WIFI"
+                },
+                {
+                    "type": "ColumnSet",
+                    "spacing": "Medium",
+                    "separator": true,
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "horizontalAlignment": "Center",
+                                    "url": "http://lukoil.com.mk/Content/icons/en/wi-fi-white.png",
+                                    "size": "Medium"
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "horizontalAlignment": "Center",
+                            "verticalContentAlignment": "Center",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "ExtraLarge",
+                                    "text": "1,2 GB"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "text": "de 3 GB\n"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

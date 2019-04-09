@@ -1,0 +1,101 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "horizontalAlignment": "Center",
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "text": "KM SEMANALES"
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "Medium",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Large",
+                            "text": "SEMANA"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "___"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "1ª Semana"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "2ª Semana"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "3ª Semana"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "4ª Semana"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Large",
+                            "text": "KM"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "____"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "120"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "230"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "84"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "text": "98"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

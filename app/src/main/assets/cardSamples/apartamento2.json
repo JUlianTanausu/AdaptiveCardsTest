@@ -1,0 +1,35 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://www.javea.com/wp-content/uploads/2016/04/fachada-y-piscina-de-marinabay-homes-cha0670-590x332.jpeg",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "size": "Large",
+              "color": "Light",
+              "text": "Moderno"
+            },
+            {
+              "type": "TextBlock",
+              "size": "Large",
+              "color": "Light",
+              "text": "100€"
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

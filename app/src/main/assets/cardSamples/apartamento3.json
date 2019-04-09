@@ -1,0 +1,35 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://www.denia.com/wp-content/uploads/2016/09/chalet-a-la-venta-vacaciones-y-bienestar-590x332.jpg",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "size": "Large",
+              "color": "Light",
+              "text": "Con piscina"
+            },
+            {
+              "type": "TextBlock",
+              "size": "Large",
+              "color": "Light",
+              "text": "120€"
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
